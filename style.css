@@ -1,4 +1,4 @@
-/* you can also add reset*/
+
 
 *{background-color: beige;
     background-image: url("./black-background.jpg");
@@ -45,4 +45,38 @@ button {
     border-radius: 100px; 
     cursor: pointer; 
     border: solid black;
+}
+
+
+@media (max-width: 800px) {
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #cookie-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
+
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    #cookie-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 18px; 
+    }
 }
